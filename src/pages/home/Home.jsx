@@ -6,6 +6,8 @@ import { Project } from '../project/Project';
 import { Vanilajs } from '../vanilajs/Vanilajs';
 
 export const Home = () => {
+  
+
   return (
     <>
       <Main />
