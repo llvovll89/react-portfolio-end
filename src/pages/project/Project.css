@@ -1,0 +1,18 @@
+.project {
+    background: var(--mainBlack);
+    color: var(--whiteColor);
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    place-items: center;
+}
+
+@media screen  and (max-width: 768px) {
+    .project-content {
+        grid-template-columns: 1fr;
+    }
+}

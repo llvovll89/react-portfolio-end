@@ -1,0 +1,41 @@
+.footer {
+    text-align: center;
+    background-color: var(--mainBlack);
+    padding: 50px;
+}
+
+.footer .footer-container {
+    padding: 0.5rem;
+    margin: 0 auto;
+    width: max-content;
+    height: max-content;
+}
+
+.footer .social-icon ,
+.footer .copy {
+    color: var(--titleColor);
+    font-size: 1.3rem;
+}
+
+.footer .social-icon {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.footer .copy {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .footer {
+        padding: 35px;
+    }
+    .footer .social-icon ,
+    .footer .copy {
+        font-size: 1rem;
+    }   
+
+    .footer .social-icon {
+        margin: 0 0.75rem;
+    }
+}

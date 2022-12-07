@@ -1,0 +1,41 @@
+.main {
+    position: relative;
+    z-index: 50;
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../../../public/assets/bgImg/main-bg2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.main-container {
+    color: var(--mainGray);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .main-title {
+    font-size: 2rem;
+}
+
+.main-container .ani-title {
+    font-size: 2.3rem;
+}
+
+.main-container .home-desc {
+    font-size: 1rem;
+}
