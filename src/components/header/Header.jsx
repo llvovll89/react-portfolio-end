@@ -36,9 +36,6 @@ export const Header = () => {
 
           <button
             className="menu-btn"
-            data-aos="zoom-in"
-            data-aos-duration="1100"
-            data-aos-delay="1200"
             onClick={() => setMobile(!mobile)}
           >
             <Menu className="toggle" />
