@@ -11,7 +11,8 @@ export const Main = () => {
         {main.map((item) => (
           <div
             className="main-container"
-            data-aos="zoom-out-left"
+            data-aos="fade-out"
+            data-aos-delay="200"
             data-aos-duration="1200"
             key={uuid()}
           >
@@ -30,7 +31,8 @@ export const Main = () => {
                 }}
               />
             </h1>
-            <p className="home-desc">{item.desc}</p>
+            <p className="home-desc">Today’s special moments are tomorrow’s memories</p>
+            <button className='main-btn'>Button</button>
           </div>
         ))}
       </section>

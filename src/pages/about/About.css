@@ -1,0 +1,78 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title {
+    text-align: center;
+    width: max-content;
+    margin: 40px auto;
+}
+
+.about-title .title {
+    font-size: 3rem;
+}
+
+.about-title .subtitle {
+    font-size: 1.6rem;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-img {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+
+.about-container .about-img ,
+.about-container .about-desc ,
+.about-container .about-sub-text {
+    margin: 30px auto;
+}
+
+.about-container .about-desc {
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+.about-container .about-sub-text {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1.1rem;
+}
+
+/* slider */
+.slick-slider {
+    max-width: 96%;
+    width: 768px;
+    padding: 1.5rem;
+}
+
+.slick-slider .slick-dots {
+    bottom: -50px;
+    max-width: 90%;
+}
+
+.slick-slider .slick-dots li:hover button::before {
+    color: saddlebrown;
+}
+
+.slick-slider .slick-dots li button::before {
+    font-size: 20px;
+    opacity: 0.15;
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: var(--titleColor);
+}
+
+@media screen and (max-width: 768px) {
+    .slick-slider .slick-dots li button::before {
+        font-size: 17px;
+    }
+}

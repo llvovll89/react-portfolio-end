@@ -14,7 +14,7 @@ export const Project = () => {
             data-aos="zoom-out-left"
             data-aos-duration="1200"
           >
-            <Title title="Project" />
+            <Title title="Project" subtitle="React-project" />
           </div>
           <div className="project-content">
             {projects.map((item) => (

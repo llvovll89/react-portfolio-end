@@ -47,15 +47,28 @@ export const main = [
     topText: 'Nice To Meet You',
     post: 'New Front-End Developer',
     design: 'Kim Geon Ho 입니다.',
-    desc: `변화하는 트렌드 맞춘 기술을 배우는 것을 좋아하는 개발자 입니다.`,
   },
 ];
 
 // section - about
 export const about = [
   {
-    desc: 'I like to debug, and I like to error out and maintain through code refactoring.I want to become a developer who develops well in terms of UI/UX by increasing my design sense.',
-    aboutCober: '',
+    id: 1,
+    desc: `              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Voluptates id accusantium nisi in eum quas facilis facere hic,
+    soluta perspiciatis odio dolore officia omnis esse cupiditate
+    perferendis quae. Debitis, officiis?`,
+    imgurl: '../images/about/about.png',
+    subtext: '열정과 호기심이 가득한 김건호 출동!',
+  },
+  {
+    id: 2,
+    desc: `              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    Voluptates id accusantium nisi in eum quas facilis facere hic,
+    soluta perspiciatis odio dolore officia omnis esse cupiditate
+    perferendis quae. Debitis, officiis?`,
+    imgurl: '../images/about/about.png',
+    subtext: '열심히 하는 사람에게는 복이 옵니다.',
   },
 ];
 
@@ -66,41 +79,46 @@ export const projects = [
     name: '나의 연애 유형',
     category: 'Couple',
     title: '연애Test',
+    cover: '',
   },
   {
     id: 2,
     name: 'Brand',
     category: 'design',
     title: 'Brex Logo',
+    cover: '',
   },
   {
     id: 3,
     name: 'Brand',
     category: 'development',
     title: 'Brex Logo',
+    cover: '',
   },
   {
     id: 4,
     name: 'Brand',
     category: 'marketing',
     title: 'Brex Logo',
+    cover: '',
   },
   {
     id: 5,
     name: 'Brand',
     category: 'design',
     title: 'Brex Logo',
+    cover: '',
   },
   {
     id: 6,
     name: 'Brand',
     category: 'development',
     title: 'Brex Logo',
+    cover: '',
   },
 ];
 
-
-// footer 
+// footer
 
 export const social = [
   {

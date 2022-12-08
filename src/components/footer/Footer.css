@@ -1,20 +1,26 @@
 .footer {
     text-align: center;
     background-color: var(--mainBlack);
-    padding: 50px;
+    padding: 30px;
+    font-family: 'Chosunilbo_myungjo';
 }
 
 .footer .footer-container {
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin: 0 auto;
     width: max-content;
     height: max-content;
 }
 
-.footer .social-icon ,
 .footer .copy {
     color: var(--titleColor);
-    font-size: 1.3rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.footer-container i svg{
+    color: var(--titleColor);
+    font-size: 1.2rem;
 }
 
 .footer .social-icon {
@@ -28,12 +34,16 @@
 
 @media screen and (max-width: 768px){
     .footer {
-        padding: 35px;
+        padding: 15px;
     }
     .footer .social-icon ,
     .footer .copy {
-        font-size: 1rem;
-    }   
+        font-size: 0.9rem;
+    }
+    
+    .footer-container .social-icon i svg {
+        font-size: 0.95rem;
+    }
 
     .footer .social-icon {
         margin: 0 0.75rem;
