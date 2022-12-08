@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Title } from '../../components/title/Title';
 import { vanilajs } from '../../assets/db/dummydata';
 import { Link } from 'react-router-dom';
 import './Vanilajs.css';
 
 export const Vanilajs = () => {
+  const [list, setList] = useState(vanilajs);
+
   return (
     <>
       <section className="vanilajs">
@@ -17,7 +19,7 @@ export const Vanilajs = () => {
         </div>
 
         <div className="vanilajs-container">
-          {vanilajs.map((item) => (
+          {list.map((item) => (
             <div className="vanilajs-card" key={item.id}>
               <img src={item.cover} alt="..." className="vanila-img" />
               <div className="vanilajs-content">

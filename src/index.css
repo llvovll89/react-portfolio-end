@@ -84,3 +84,10 @@ section {
   letter-spacing: 1px;
   line-height: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  section {
+    height: auto;
+    padding-top: 50px;
+  }
+}

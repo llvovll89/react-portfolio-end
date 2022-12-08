@@ -128,7 +128,7 @@ export const vanilajs = [
     name: 'Typing-Game',
     icon: <PhoneIphone />,
     git: <GitHub />,
-    cover: "../images/aboutimg/about.png",
+    cover: "../img/vanila/insect-game.png",
     github: "https://llvovll89.github.io/typing-Game",
     skill:  [<Html />  , <Javascript /> , <Css />],
     desc: `Vanlia Js 로 만든 Typing game , UI 나 / UX 가 부족하지만 공부를 위해`
