@@ -17,8 +17,6 @@ export const Header = () => {
       <header className="header">
         <div
           className="header-container container"
-          data-aos="fade-up"
-          data-aos-duration="1200"
         >
           <div className="logo">
             <span className="logo-title" onClick={handelTop}>
