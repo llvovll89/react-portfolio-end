@@ -12,8 +12,14 @@ import { Footer } from './components/footer/Footer';
 
 
 function App() {
+  const heightVh =  () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  }
+
   useEffect(() => {
     AOS.init();
+    heightVh();
   }, []);
 
   return (

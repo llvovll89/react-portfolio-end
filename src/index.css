@@ -17,6 +17,9 @@
 }
 
 :root {
+  /* mobile height */
+  --vh: 100%;
+
   /* background */
   --mainBlack: #131213;
   --lightBlack: #202124;
@@ -69,8 +72,7 @@ button, input {
 
 section {
   min-height: 90vh;
-  height: calc(100%);
-  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
   justify-content: center;
   align-items: center;

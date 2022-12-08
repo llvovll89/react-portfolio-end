@@ -10,7 +10,11 @@ import {
   Home,
   AccountCircle,
   ContactEmergency,
+  Html,
+  Css,
+  GitHub,
 } from '@mui/icons-material';
+
 
 // nav export
 export const navlinks = [
@@ -58,7 +62,7 @@ export const about = [
     Voluptates id accusantium nisi in eum quas facilis facere hic,
     soluta perspiciatis odio dolore officia omnis esse cupiditate
     perferendis quae. Debitis, officiis?`,
-    imgurl: '../images/about/about.png',
+    imgurl: './img/about/about.png',
     subtext: '열정과 호기심이 가득한 김건호 출동!',
   },
   {
@@ -67,7 +71,7 @@ export const about = [
     Voluptates id accusantium nisi in eum quas facilis facere hic,
     soluta perspiciatis odio dolore officia omnis esse cupiditate
     perferendis quae. Debitis, officiis?`,
-    imgurl: '../images/about/about.png',
+    imgurl: './img/about/about.png',
     subtext: '열심히 하는 사람에게는 복이 옵니다.',
   },
 ];
@@ -117,6 +121,29 @@ export const projects = [
     cover: '',
   },
 ];
+
+export const vanilajs = [
+  {
+    id: 1,
+    name: 'Typing-Game',
+    icon: <PhoneIphone />,
+    git: <GitHub />,
+    cover: "../images/aboutimg/about.png",
+    github: "https://llvovll89.github.io/typing-Game",
+    skill:  [<Html />  , <Javascript /> , <Css />],
+    desc: `Vanlia Js 로 만든 Typing game , UI 나 / UX 가 부족하지만 공부를 위해`
+  },
+  {
+    id: 2,
+    name: 'Insect-Game',
+    icon: <PhoneIphone />,
+    git: <GitHub />,
+    cover: "../images/vanila/insect-game.png",
+    github: "https://llvovll89.github.io/js-insect-catchgame",
+    skill:  [<Html />  , <Javascript /> , <Css />],
+    desc: `canvas와 마우스 위치를 파악 하기 위해 연습한 게임`
+  },
+]
 
 // footer
 

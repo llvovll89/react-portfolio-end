@@ -22,7 +22,6 @@ export const Header = () => {
         >
           <div className="logo">
             <span className="logo-title" onClick={handelTop}>
-              {' '}
               FRONT-END
             </span>
           </div>

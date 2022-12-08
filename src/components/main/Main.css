@@ -54,8 +54,6 @@
 .main-container .ani-title ,
 .main-container .home-desc {
     padding: 0.35rem;
-    background-color: rgba(0, 0, 0, 0.06);
-    border-radius: 12px;
 }
 
 .main-container .main-btn {

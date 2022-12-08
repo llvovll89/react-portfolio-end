@@ -54,10 +54,11 @@
     background-color: transparent;
 }
 
-.menu-btn:hover .toggle {
-    background: var(--lightBlack);
-    transition: 0.4s linear;
-    border-radius: 12% 31% 22% 7%;
+.header .menu-btn:hover .toggle {
+    transition: 0.1s linear;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.07);
+    padding: 0.1rem;
 }
 
 .menu-btn .toggle {
@@ -180,6 +181,5 @@
 }
 
 @media screen and (max-width: 464px) {
-    .header .hide-navbar {
-    }
+    .header .hide-navbar {}
 }

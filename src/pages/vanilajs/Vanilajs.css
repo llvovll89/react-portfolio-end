@@ -1,0 +1,92 @@
+.vanilajs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vanilajs .vanila-text {
+    margin: 40px auto;
+    width: max-content;
+}
+
+.vanilajs .vanilajs-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1.5rem;
+    max-width: 90vw;
+}
+
+.vanilajs-container .vanilajs-card {
+    /* position: relative; */
+    width: 100%;
+    padding: 1.5rem ;
+    background: rgba(0,0,0,0.13);
+}
+
+/* .vanilajs-container .vanilajs-card::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('./vanilaBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.vanilajs-container .vanilajs-card .vanilajs-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+}
+
+.vanilajs-card .vanilajs-content .vanila-title {
+    font-size: 2rem;
+}
+
+.vanilajs-card .vanila-img {
+    width: 100%;
+    height: 200px;
+}
+
+.vanilajs-card .vanilajs-content .skill {
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.vanilajs-card .vanilajs-content .skill svg {
+    font-size: 2rem;
+}
+
+.vanilajs-card .vanilajs-content .vanila-desc {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+.vanilajs-card .vanilajs-content .btn-git {
+    color: var(--mainBlack);
+    padding: 0.85rem 2rem;
+    border: 1px solid #ccc;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .vanilajs .vanilajs-container {
+        grid-template-columns: 1fr;
+    }
+    .vanilajs-card .vanilajs-content .btn-git {
+        padding: 0.7rem 1.6rem;
+    }
+}
