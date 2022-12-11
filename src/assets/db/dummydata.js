@@ -58,20 +58,20 @@ export const main = [
 export const about = [
   {
     id: 1,
-    desc: `              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    desc: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit.
     Voluptates id accusantium nisi in eum quas facilis facere hic,
     soluta perspiciatis odio dolore officia omnis esse cupiditate
     perferendis quae. Debitis, officiis?`,
-    imgurl: './img/about/about.png',
+    imgurl: './images/about/about.png',
     subtext: '열정과 호기심이 가득한 김건호 출동!',
   },
   {
     id: 2,
-    desc: `              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit.
     Voluptates id accusantium nisi in eum quas facilis facere hic,
     soluta perspiciatis odio dolore officia omnis esse cupiditate
     perferendis quae. Debitis, officiis?`,
-    imgurl: './img/about/about.png',
+    imgurl: './images/about/about.png',
     subtext: '열심히 하는 사람에게는 복이 옵니다.',
   },
 ];
@@ -80,45 +80,45 @@ export const about = [
 export const projects = [
   {
     id: 1,
-    name: '나의 연애 유형',
+    name: '01.project',
     category: 'Couple',
     title: '연애Test',
-    cover: '',
+    cover: './images/about/about.png',
   },
   {
     id: 2,
-    name: 'Brand',
+    name: '02.project',
     category: 'design',
     title: 'Brex Logo',
-    cover: '',
+    cover: './images/bgImg/home-bg.jpg',
   },
   {
     id: 3,
-    name: 'Brand',
+    name: '03.project',
     category: 'development',
     title: 'Brex Logo',
-    cover: '',
+    cover: './images/about/about.png',
   },
   {
     id: 4,
-    name: 'Brand',
+    name: '04.project',
     category: 'marketing',
     title: 'Brex Logo',
-    cover: '',
+    cover: './images/about/about.png',
   },
   {
     id: 5,
-    name: 'Brand',
+    name: '05.project',
     category: 'design',
     title: 'Brex Logo',
-    cover: '',
+    cover: './images/about/about.png',
   },
   {
     id: 6,
-    name: 'Brand',
+    name: '06.project',
     category: 'development',
     title: 'Brex Logo',
-    cover: '',
+    cover: './images/about/about.png',
   },
 ];
 
@@ -128,7 +128,7 @@ export const vanilajs = [
     name: 'Typing-Game',
     icon: <PhoneIphone />,
     git: <GitHub />,
-    cover: "../img/vanila/insect-game.png",
+    cover: "./images/vanila/typing-game.png",
     github: "https://llvovll89.github.io/typing-Game",
     skill:  [<Html />  , <Javascript /> , <Css />],
     desc: `Vanlia Js 로 만든 Typing game , UI 나 / UX 가 부족하지만 공부를 위해`
@@ -138,7 +138,7 @@ export const vanilajs = [
     name: 'Insect-Game',
     icon: <PhoneIphone />,
     git: <GitHub />,
-    cover: "../images/vanila/insect-game.png",
+    cover: "./images/vanila/insect-game.png",
     github: "https://llvovll89.github.io/js-insect-catchgame",
     skill:  [<Html />  , <Javascript /> , <Css />],
     desc: `canvas와 마우스 위치를 파악 하기 위해 연습한 게임`

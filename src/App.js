@@ -1,14 +1,7 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Home } from './pages/home/Home';
-import { About } from './pages/about/About';
-import { Vanilajs } from './pages/vanilajs/Vanilajs';
-import { Project } from './pages/project/Project';
-import { Contact } from './pages/contact/Contact';
-import { Header } from './components/header/Header';
-import { Footer } from './components/footer/Footer';
+import { Pages } from './pages/Pages';
 
 
 function App() {
@@ -24,19 +17,9 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/vanilajs" element={<Vanilajs />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
+    <>
+    <Pages />
+    </>
   );
 }
 

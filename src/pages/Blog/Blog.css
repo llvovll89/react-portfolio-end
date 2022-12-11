@@ -1,0 +1,59 @@
+.blog {
+    margin-top: 50px;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.blog .blog-card {
+    border-radius: 0;
+    text-align: center;
+}
+
+.blog p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.blog img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog .box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.blog .box {
+    cursor: pointer;
+    position: relative;
+}
+
+.blog .overlay {
+    position: absolute;
+    top: 80px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+}
+
+.blog .overlay h4 {
+    font-weight: 500;
+    color: rgb(253, 246, 126);
+}
+
+.blog .overlay p {
+    color: #fff;
+    font-weight: 300;
+    padding: 15px;
+}
